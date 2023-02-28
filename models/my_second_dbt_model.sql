@@ -9,7 +9,7 @@ model_one as (
 select 
     *,
     {{ squared('id') }},
-    {{ var('a_date')}} as last_ran
+    {{ var('a_date') }} as last_ran
 
 from model_one
 where id = 1

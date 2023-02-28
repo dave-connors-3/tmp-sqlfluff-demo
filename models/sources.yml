@@ -1,0 +1,9 @@
+version: 2 
+
+sources:
+  - name: dummy_source
+    description: table representation of the seed data, not real
+    schema: "{{ target.schema }}"
+    database: "{{ target.database }}"
+    tables:
+      - name: sapling
