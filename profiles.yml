@@ -1,0 +1,13 @@
+sqlfluff:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      schema: dev
+      path: 'sqlfluff.duckdb'
+      threads: 24
+    prod:
+      type: duckdb
+      schema: prod
+      path: 'sqlfluff.duckdb'
+      threads: 24
