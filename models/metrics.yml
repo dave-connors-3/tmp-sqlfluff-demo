@@ -1,0 +1,11 @@
+version: 2
+
+metrics:
+  - name: my_favorite_metric
+    label: My Favorite Metric
+    model: ref('my_second_dbt_model')
+    description: "do you remember the movie my favorite martian with christoper lloyd and jeff daniels?"
+
+    calculation_method: sum
+    expression: value 
+    

@@ -4,9 +4,9 @@
 
 with source_data as (
 
-    select 1 as id
+    select 1 as id, 100 as value
     union all
-    select null as id
+    select 2 as id, 100 as value
 
 )
 

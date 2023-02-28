@@ -33,6 +33,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   sqlfluff:
-    # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    +enabled: true
+
+  
+vars:
+  a_date: "current_timestamp"
