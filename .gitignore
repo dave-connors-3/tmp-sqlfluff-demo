@@ -3,5 +3,6 @@ target/
 dbt_packages/
 logs/
 .env/
+env/
 sqlfluff.duckdb
 sqlfluff.duckdb.wal
